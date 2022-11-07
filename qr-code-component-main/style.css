@@ -10,7 +10,6 @@ body {
   display: flex;
   align-items: center;
   font-size: 0.9375rem;
-  color: hsl(211.58, 9%, 58.63%);
   box-shadow: 2rem;
 }
 .sr-only {
@@ -45,4 +44,7 @@ main {
 h2,
 p {
   padding: 0.65rem 0;
+}
+p {
+  color: hsl(211.58, 9%, 58.63%);
 }
