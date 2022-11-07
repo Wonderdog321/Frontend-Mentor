@@ -9,31 +9,40 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  font-size: 15px;
+  font-size: 0.9375rem;
+  color: hsl(211.58, 9%, 58.63%);
+  box-shadow: 2rem;
 }
-.attribution {
-  font-size: 11px;
+.sr-only {
+  display: none;
+}
+footer {
+  font-size: 0.6875rem;
   text-align: center;
   position: fixed;
   bottom: 1rem;
   width: 100%;
 }
-.attribution a {
+footer a {
   color: hsl(228, 45%, 44%);
 }
-.qr-code-container {
+main {
   max-width: 360px;
   margin: 0 auto;
 }
 .card {
   justify-content: center;
   background-color: hsl(0, 0%, 100%);
-  padding: 17px;
-  border-radius: 17px;
+  padding: 16px;
+  border-radius: 15px;
   text-align: center;
-  margin: 0 1rem;
+  margin: 1.5rem;
 }
 .card img {
   width: 100%;
   border-radius: 12px;
+}
+h2,
+p {
+  padding: 0.65rem 0;
 }
